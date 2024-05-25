@@ -1,0 +1,47 @@
+<main class="w-75 mt-4" style="margin: auto">
+  <h1 class="mb-2"><b>Dados do Livro</b></h1>
+  <form (submit)="incluirLivro($event)">
+    <div class="row">
+      <div class="col-12 d-flex flex-column mb-2">
+        <label for="input-livro">Título</label>
+        <input
+          type="text"
+          (ngModel)="(livro.titulo)"
+          class="form-control"
+          name="titulo"
+        />
+      </div>
+      <div class="col-12 d-flex flex-column mb-2">
+        <label for="input-resumo">Resumo</label>
+        <textarea
+          id="input-resumo"
+          class="form-control"
+          (ngModel)="(resumo)"
+          name="resumo"
+        ></textarea>
+      </div>
+      <div class="col-12 d-flex flex-column mb-2">
+        <label>Editora</label>
+        <select
+          (ngModel)="(codEditora)"
+          (change)="tratarCombo($event)"
+          class="form-control"
+        >
+          <option *ngFor="let opcao of opcoes" [value]="opcao.codEditora">
+            {{ opcao.nome }}
+          </option>
+        </select>
+      </div>
+      <div class="col-12 d-flex flex-column mb-2">
+        <label for="input-autores">Autores</label>
+        <textarea
+          id="input-autores"
+          class="form-control"
+          (ngModel)="(autores)"
+          name="autores"
+        ></textarea>
+      </div>
+    </div>
+    <button class="btn btn-primary mt-2" type="submit">Salvar Dados</button>
+  </form>
+</main>

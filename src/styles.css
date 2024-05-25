@@ -1,1 +1,201 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importações */
+@import url("https://fonts.googleapis.com/css2?family=Calibri");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Variáveis CSS personalizadas */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Estilos */
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Regras do Tailwind CSS */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+/* Estilo padrão para links */
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-nav .nav-item {
+  border-radius: 8px;
+  margin-left: 20px;
+  padding: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(33, 37, 41);
+}
+.a .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link.text-dark {
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link.text-white {
+  color: #fff;
+}
+.w-100 {
+  width: 100% !important;
+  font-size: 36px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* livro-lista.component.css */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Correção: use classes em minúsculas */
+.th,
+.td {
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+}
+
+/* Correção: seletores corrigidos para classes */
+.th {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+/* Correção: seletores corrigidos para classes */
+.tr:nth-child(even) {
+  background-color: #595959;
+}
+
+/* Correção: seletores corrigidos para classes */
+.thead {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Correção: seletores corrigidos para classes */
+.tbody {
+  background-color: #333;
+  color: white;
+}
+
+/* Correção: seletores corrigidos para classes */
+h1.w-100.txt-center {
+  width: 100%;
+  font-size: 36px;
+}
+h1.mb-2 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Estilo para os inputs e labels */
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+/* Estilo para os botões */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+/* Estilo para os labels */
+label {
+  margin-bottom: 0.25rem;
+  font-weight: bold; /* Adicionei 'bold' para completar a declaração */
+}
+
+/* Ajustes de layout */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo para o textarea */
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Estilo para a tabela de opções */
+select.form-control {
+  width: 100%;
+}

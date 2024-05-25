@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
+// Remove the invalid declaration of CUSTOM_ELEMENTS_SCHEMA
+// and properly configure the NgModule below
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'livros-angular';
+  title = 'Loja Angular';
 }
