@@ -35,8 +35,8 @@ Você pode saber mais na [documentação sobre criação do aplicativo Angular](
   <img align="center" alt="Ropaes-TS"height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />          
   <img align="center" alt="Ropaes-HTML"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
   <img align="center" alt="Ropaes-CSS"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-  ![image](https://github.com/DevRobertaPaes/Missao-4-Estacio/assets/165825219/04f9a53a-29de-422f-93b5-c57db16117c1)
-
+  <img align="center" alt="Ropaes-Angular"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original-wordmark.svg" />
+  
   </div>
 
  <div>
