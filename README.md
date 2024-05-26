@@ -1,27 +1,49 @@
-# LivrosAngular
+# Livros Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+# Missao-4-Estacio
 
-## Development server
+# ⚙ Primeiros passos com o aplicativo Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto foi inicializado com VS Code
 
-## Code scaffolding
+## Scripts Disponíveis
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+No diretório do projeto, você pode executar:
 
-## Build
+### `ng serve`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Executa o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:4200](http://localhost:4200) para visualizá-lo no navegador.
 
-## Running unit tests
+A página será recarregada se você fizer edições.\
+Você também verá erros de lint no console.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+O projeto que você cria com a CLI está imediatamente pronto para teste. Basta executar o ng testcomando CLI:
+### `ng test`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Saber mais
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Você pode saber mais na [documentação sobre criação do aplicativo Angular](https://angular.dev/overview).
+
+
+#angular-livros
+
+<div style="display:inline_block"><br>
+  <img align="center" alt="Ropaes-JS"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />  
+  <img align="center" alt="Ropaes-TS"height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />          
+  <img align="center" alt="Ropaes-HTML"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+  <img align="center" alt="Ropaes-CSS"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+  <img align="center" alt="Ropaes-React"height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+  </div>
+
+ <div>
+  <img src="octocat-21.png"align="right" width="30%" margin-top="20px" >
+</div>
+<div>
+<img width="100%" src="https://camo.githubusercontent.com/ce26eeddc72e80f3706363df1eedfdeb81905fe41fd9933e4299464ab13faebb/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d384630443837266865696768743d3132302673656374696f6e3d666f6f746572" data-canonical-src="https://capsule-render.vercel.app/api?type=waving&amp;color=8F0D87&amp;height=120&amp;section=footer" style="max-width: 100;">
+
+
+   
+  </div>  
