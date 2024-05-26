@@ -1,6 +1,7 @@
 // Livro.ts
 
 export class Livro {
+  editora: any;
   constructor(
     public codigo: number = 0,
     public titulo: string = '',

@@ -8,7 +8,6 @@ const editoras: Array<Editora> = [
   { codEditora: 4145454, nome: 'Pedras Pesadas' },
   { codEditora: 8979845, nome: 'CIA das Letras' },
 ];
-
 export class ControleEditora {
   getEditoras(): Array<Editora> {
     return editoras;
